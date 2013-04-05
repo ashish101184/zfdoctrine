@@ -1,0 +1,49 @@
+Model_Comment:
+  Model_Comment_1:
+    User: Model_User_1
+    comment: 'This is my comment. Enjoy.'
+  Model_Comment_2:
+    User: Model_User_1
+    comment: 'Now get user 2 comments.'
+  Model_Comment_3:
+    User: Model_User_2
+    comment: TEst
+  Model_Comment_4:
+    User: Model_User_2
+    comment: sdfasf
+Model_Contact:
+  Model_Contact_1:
+    first_name: Rishabh
+    last_name: Technology
+    phone: 214-555-5555
+    address: '1234 Rodeo Drive'
+  Model_Contact_2:
+    first_name: ashish
+    last_name: patel
+    phone: '32423'
+    address: asfssasfasfasdf
+Model_Group:
+  Model_Group_1:
+    name: Anonymous
+  Model_Group_2:
+    name: Member
+Model_User:
+  Model_User_1:
+    Contact: Model_Contact_1
+    email: test@rishabhsoft.com
+    password: 5f4dcc3b5aa765d61d8327deb882cf99
+    created_at: '2012-12-31 20:53:01'
+    updated_at: '2012-12-31 20:53:01'
+  Model_User_2:
+    Contact: Model_Contact_2
+    email: segupatel@gmail.com
+    password: e10adc3949ba59abbe56e057f20f883e
+    created_at: '2013-04-05 07:36:47'
+    updated_at: '2013-04-05 07:36:47'
+Model_UserGroup:
+  Model_UserGroup_2_1:
+    Group: Model_Group_2
+    User: Model_User_1
+  Model_UserGroup_2_2:
+    Group: Model_Group_2
+    User: Model_User_2
